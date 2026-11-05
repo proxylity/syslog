@@ -1,0 +1,6 @@
+# Normalize line endings: store and check out text files with LF.
+* text=auto eol=lf
+
+# Keys are generated artifacts and ignored, but if ever present keep them untouched.
+*.key binary
+*.pub binary

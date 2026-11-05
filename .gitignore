@@ -1,0 +1,31 @@
+# Node
+node_modules/
+npm-debug.log*
+
+# CDK
+cdk.out/
+.cdk.staging/
+
+# AWS SAM
+.aws-sam/
+
+# Build outputs
+*.js
+!jest.config.js
+*.d.ts
+*.js.map
+
+# Local outputs
+outputs.json
+*.outputs
+
+# WireGuard keys — never commit site private/public keys
+*.key
+*.pub
+
+# Env / editor
+.env
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
